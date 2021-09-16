@@ -1,5 +1,5 @@
 #!/bin/bash
-# What day of the week is it?
-#reponse: Thursday
+#7:What is the day of the week ?
+#response: Thursday
 
 date '+%A'

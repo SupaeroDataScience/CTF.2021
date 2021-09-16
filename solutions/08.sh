@@ -1,5 +1,4 @@
 #!/bin/bash
-# How many lines are in the file american-english-large?
-# Reponse: 167303
-
-cat american-english-large  | wc -l
+# question : How many lines are in the file american-english-large?
+# réponse : 167303
+ssh ctf wc american-english-large
