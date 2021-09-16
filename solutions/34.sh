@@ -3,4 +3,4 @@
 # Reponse: 75
 
 
-ssh cft cd transformers ; git tag | wc -l ; cd ~
+ssh ctf cd transformers ; git tag | wc -l ; cd ~
