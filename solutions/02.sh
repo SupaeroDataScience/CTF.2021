@@ -1,4 +1,5 @@
 #!/bin/bash
-# How many files (excluding directories) are there in ~/?
-# response: 3
-ssh ctf find . -maxdepth 1 -type f | wc -l
+# question: how many files in ./
+# answer: 5
+
+ssh ctf ls | wc -l

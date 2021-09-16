@@ -1,4 +1,5 @@
 #!/bin/bash
 # What is the path of the grep executable?
-# response: /bin/grep
-ssh ctf which grep
+# Reponse: /bin/grep
+
+find . -type f -print | wc -l
