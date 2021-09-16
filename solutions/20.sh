@@ -1,5 +1,5 @@
 #!/bin/bash
-# What is the path of the grep executable?
-# Reponse: /bin/grep
+# How many total files (including directories) are there in the ~/MLclass repository and all subdirectories?
+# Reponse: 6783
 
-find . -type f -print | wc -l
+ssh ctf find ./MLclass/ | wc -l
