@@ -1,5 +1,5 @@
 #!/bin/bash
-# What day of the week is it?
-# Reponse: Thursday
+#7:What is the day of the week ?
+#response: Thursday
 
 ssh ctf date '+%A'
