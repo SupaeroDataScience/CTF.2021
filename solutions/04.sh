@@ -3,3 +3,7 @@
 # response: /bin
 
 echo $PATH
+
+ssh ctf 'echo $PATH'
+# response: /bin
+# author: Antoine STEVAN

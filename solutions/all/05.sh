@@ -3,5 +3,5 @@
 
 ssh ctf 'ls $PATH -l | grep '^[^d]..x..x..x' | wc -l'
 ssh ctf 'find $PATH -executable -type f| wc -l'
-# response: 
+# response: 18
 # author: Antoine STEVAN

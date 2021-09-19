@@ -3,3 +3,9 @@
 # response: [isort] [flake8] [tool:pytest]
 
 grep "\[" setup.cfg
+
+ssh ctf 'grep "^\[" ~/transformers/setup.cfg'
+# response: [isort]
+#           [flake8]
+#           [tool:pytest]
+# author: Antoine STEVAN

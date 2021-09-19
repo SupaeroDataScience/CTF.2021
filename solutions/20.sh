@@ -3,3 +3,7 @@
 # Reponse: 6783
 
 ssh ctf find ./MLclass/ | wc -l
+
+ssh ctf 'find ~/MLclass/ | wc -l'
+# response: 6783
+# author: Antoine STEVAN

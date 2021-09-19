@@ -3,3 +3,7 @@
 # Response: 285
 
 grep -rnw ./transformers/* -e "import numpy" | wc -l
+
+ssh ctf 'grep -rwl "^import numpy" ~/transformers/ | wc -l'
+# response: 226
+# author: Antoine STEVAN

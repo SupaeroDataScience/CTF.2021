@@ -4,3 +4,6 @@
 
 grep "   " setup.cfg | wc -l
 
+ssh ctf 'grep "^\s" ~/transformers/setup.cfg | wc -l'
+# response: 35
+# author: Antoine STEVAN

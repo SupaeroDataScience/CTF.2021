@@ -3,3 +3,7 @@
 # Reponse: 1
 
 ssh ctf grep -w "^hello$" american-english-large | wc -l
+
+ssh ctf grep -E '^hello$' american-english-large | wc -l
+# response: 1
+# author: Antoine STEVAN

@@ -3,3 +3,7 @@
 #response: Thursday
 
 ssh ctf date '+%A'
+
+ssh ctf date +'%A'
+# response: Saturday
+# author: Antoine STEVAN

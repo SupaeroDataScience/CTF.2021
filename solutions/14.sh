@@ -3,3 +3,7 @@
 # Réponse : 1
 
 ssh ctf grep -c -x "croissant" french
+
+ssh ctf grep "^croissant$" french | wc -l
+# response: 1
+# author: Antoine STEVAN

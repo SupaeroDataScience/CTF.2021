@@ -3,3 +3,8 @@
 # Reponse: 09/16/21
 
 ssh ctf date +"%D"
+
+ssh ctf date +'%D'
+ssh ctf date +'%F'
+# response: 09/18/21 or 2021-09-18
+# author: Antoine STEVAN
